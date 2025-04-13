@@ -36,6 +36,11 @@ a{
     color: #777;
 }
 
+.navbar ul li.active{
+    padding-bottom: 10px;
+    border-bottom: 2px solid seagreen;
+}
+
 .nav-search-box{
     display: flex;
     align-items: center;
