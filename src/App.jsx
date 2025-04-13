@@ -8,7 +8,7 @@ import Services from './pages/Services/Services'
 import ContactUs from './pages/ContactUs/ContactUs'
 import Downloads from './pages/Downloads/Downloads'
 import Login from './pages/Login/Login'
-import Cart from './pages/cart/cart'
+import CartPage from './pages/CartPage/CartPage'
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
         <Route path='/contact-us' element={<ContactUs/>} />
         <Route path='/downloads' element={<Downloads/>} />
         <Route path='/login' element={<Login/>} />
-        <Route path='/cart' element={<Cart/>} />
+        <Route path='/cart' element={<CartPage/>} />
       </Routes>
     </div>
   )
