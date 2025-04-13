@@ -1,7 +1,7 @@
 import React from 'react'
 import './Cart.css'
 
-const Cart = () => {
+const cart = () => {
   return (
     <div className='cart'>
       <h1>Cart</h1>
@@ -9,4 +9,4 @@ const Cart = () => {
   )
 }
 
-export default Cart
+export default cart
