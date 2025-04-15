@@ -1,15 +1,13 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import './Home.css'
-import { ContextProvider } from '../../Context/ContextProvider'
+import Header from '../../components/Header/Header'
+import Title from '../../Title/Title'
 
 const Home = () => {
-
-  const {value} = ContextProvider;
-
   return (
     <div className='home'>
-      <h1>Home</h1>
-      <p>{value}</p>
+      <Header/>
+      <Title title="Top Course" subTitle="Best Course in Alpha School" />
     </div>
   )
 }
